@@ -1,0 +1,24 @@
+{
+  "name": "mini-harp",
+  "version": "0.0.0",
+  "description": "a web-server serves static file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "mini-harp": "./bin/mini-harp.js"
+  },
+  "keywords": [
+    "mini",
+    "harp"
+  ],
+  "author": "PowerQi",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.0.0-rc.1",
+    "minimist": "0.0.8",
+    "mocha": "^1.18.2",
+    "serve-static": "^1.0.3"
+  }
+}
