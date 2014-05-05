@@ -1,0 +1,7 @@
+var connect = require('connect');
+var serveStatic = require('serve-static');
+
+var app = connect();
+
+app.use(serveStatic(process.cwd(), {'index': 'default.html'}));
+app.listen(4000);
